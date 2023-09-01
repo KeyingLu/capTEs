@@ -15,6 +15,6 @@ conda activate capTE
 
 
 # Examples
-python capTEtools.py -id Test -i example/test.fastq -o test -r GRCh38.p13.genome.fa -g gencode.v37.chr_patch_hapl_scaff.annotation.gtf -b database/GRCh38.p13.genome.fa.TE.bed 2> test.log
+python capTEtools.py -id Test -i example/test.fastq -o test -r GRCh38.p13.genome.fa -g gencode.v37.chr_patch_hapl_scaff.annotation.gtf -b GRCh38.p13.genome.fa.TE.bed 2> test.log
 
 
