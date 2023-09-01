@@ -4,9 +4,13 @@ capTEs enables locus-specific dissection of transcriptional outputs from referen
 
 # installation
 tar zxvf capTEtools.tar.gz
+
 cd capTEtools
+
 tar xvf citeTools.tar
+
 conda env create -f capTE_env.yml
+
 conda activate capTE
 
 
