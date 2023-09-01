@@ -1,8 +1,8 @@
-# 软件说明
-capTEs测序技术自动化分析软件
+# capTEs
+capTEs enables locus-specific dissection of transcriptional outputs from reference and nonreference transposable elements
 
 
-# 安装
+# installation
 tar zxvf capTEtools.tar.gz
 cd capTEtools
 tar xvf citeTools.tar
