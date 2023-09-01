@@ -1,0 +1,32 @@
+name: capTE
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - gffread=0.12.7=h9a82719_0
+  - minimap2=2.17=h5bf99c6_4
+  - porechop=0.2.3_seqan2.1.1=0
+  - python=3.10.10=h7a1cb2a_2
+  - porechop=0.2.3_seqan2.1.1=0
+  - r-base=4.2.0=h1ae530e_0
+  - r-data.table=1.14.2=r42h76d94ec_0
+  - r-ggplot2=3.3.6=r42h6115d3f_0
+  - r-magrittr=2.0.3=r42h76d94ec_0
+  - r-plyr=1.8.7=r42h884c59f_0
+  - r-rlang=1.1.0=r42h38f115c_0
+  - r-scales=1.2.1=r42hc72bb7e_1
+  - r-stringi=1.7.6=r42h884c59f_0  
+  - r-reshape2=1.4.4=r42h7525677_2
+  - r-tibble=3.2.0=r42h133d619_0
+  - r-tidyselect=1.2.0=r42hc72bb7e_0
+  - r-vctrs=0.6.1=r42h38f115c_0
+  - bioconductor-rsamtools
+  - r-biomartr
+  - bioconductor-rtracklayer
+  - samtools=1.6=hb116620_7
+  - seqkit=2.4.0=h9ee0642_0
+  - subread=2.0.1=h5bf99c6_1
+  - nanofilt
+  - bedtools
+  - h5py
