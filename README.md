@@ -1,4 +1,4 @@
-# capTEs
+# capTEtools
 capTEs enables locus-specific dissection of transcriptional outputs from reference and nonreference transposable elements
 
 # dependency
