@@ -1,6 +1,9 @@
 # capTEs
 capTEs enables locus-specific dissection of transcriptional outputs from reference and nonreference transposable elements
 
+# dependency
+RepeatMasker
+
 
 # installation
 tar zxvf capTEtools.tar.gz
