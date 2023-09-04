@@ -10,8 +10,6 @@ tar zxvf capTEtools.tar.gz
 
 cd capTEtools
 
-tar xvf citeTools.tar
-
 conda env create -f capTE_env.yml
 
 conda activate capTE
