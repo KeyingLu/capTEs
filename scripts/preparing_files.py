@@ -36,8 +36,7 @@ def parseArgs():
 
 def trimming_and_filtering(ID, fastq, softwaredir):
     out_fq = "%s.trimming.Q7.L300.fq.gz" % ID
-    cmd = "porechop -i {fastq} -t 40 | \
-        {softwaredir}/citeTools/NanoFilt -q 7 -l 300 --headcrop 0 --tailcrop 0 | " \
+    cmd = "porechop -i {fastq} -t 40 | NanoFilt -q 7 -l 300 --headcrop 0 --tailcrop 0 | " \
           "gzip > {out_fq}".format(fastq=fastq, out_fq=out_fq)
     os.system(cmd)
     return(out_fq)
