@@ -89,14 +89,10 @@ def minimap2_transcriptom_run(ID, fq, ref, gtf, softwaredir, transcript_fa='NULL
 
 def RM_run(fq, softwaredir):
     fa = fq[:-5] + 'fa'
-    os.system("%s/citeTools/seqkit fq2fa %s -j 50 -o %s" % (softwaredir, fq, fa))
-    cmd = "{softwaredir}/citeTools/RepeatMasker/RepeatMasker \
+    os.system("seqkit fq2fa %s -j 50 -o %s" % (fq, fa))
+    cmd = "RepeatMasker \
         -engine rmblast \
-        -trf_prgm {softwaredir}/citeTools/TRF-4.09.1/build/src \
-        -libdir {softwaredir}/citeTools/RepeatMasker/Libraries \
-        -rmblast_dir {softwaredir}/citeTools/rmblast-2.11.0/bin \
-        -pa 50 -a -species human {fa} -dir ./".format(
-        softwaredir=softwaredir, fa=fa)
+        -pa 50 -a -species human {fa} -dir ./".format(fa=fa)
     print(cmd)
     os.system(cmd) 
 
